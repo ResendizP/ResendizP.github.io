@@ -13,6 +13,11 @@
     margin-top: 119px;
    
  }
+ #letter-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 #letter-analysis {
     display: none;
@@ -24,6 +29,7 @@ body {
     font-family: "Yeseva One";
     background-color: var(--wight-gray);
     color: var(--dark-brown);
+    background-image: "intersect.png";
 }
 
 
@@ -57,46 +63,13 @@ header {
     margin-right: auto;
    
 }
+
 .body {
     margin-top: 36px;
     margin-bottom: 52px;
 }
-.sample-set {
 
-    letter-spacing: 20px;
-    font-family: "Yeseva One";
-    font-size: 81px;
-    font-weight:400;
-    color: #614D49;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-sample-set::-webkit-scrollbar {
-    width: 7.5px;
-    height: 7.5px;
-}
-.sample-set::-webkit-scrollbar-track{
-background-color:#E3BBA3;
-}
-.sample-set::-webkit-scrollbar-thumb{
-    background-color:#B1907D;
-}
-.sample-sett {
-    margin-left: 519px;
-    margin-top: 75px;
-    letter-spacing: 20px;
-    font-family: "Yeseva One";
-    font-size: 81px;
-    font-weight:400;
-    color: #614D49;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-div.sample-set{
-    margin-left: 519px;
-    margin-top: -160px;
-  
-}
+
 
 .body h2 {
     font-family:"Yeseva One";
@@ -156,6 +129,8 @@ img {
     margin-left: 30px;
     margin-top: 180px;
 }
+
+
 .title {
     width: 100px;
     margin-left: 10px;
@@ -198,4 +173,55 @@ body {
     width:1024px; 
     margin:auto; 
 } 
+
+.sample-set {
+
+    letter-spacing: 20px;
+    font-family: "Yeseva One";
+    font-size: 81px;
+    font-weight:400;
+    color: #614D49;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.sample-set::-webkit-scrollbar {
+    width: 7.5px;
+    height: 12px;
+}
+.sample-set::-webkit-scrollbar-track {
+background-color:#E3BBA3;
+}
+.sample-set::-webkit-scrollbar-thumb{
+    background-color:#B1907D;
+}
+.sample-sett {
+    margin-left: 519px;
+    margin-top: 75px;
+    letter-spacing: 20px;
+    font-family: "Yeseva One";
+    font-size: 81px;
+    font-weight:400;
+    color: #614D49;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+div.sample-set{
+    margin-left: 519px;
+    margin-top: -160px;
+  
+}
+.sample-sett::-webkit-scrollbar {
+    width: 7.5px;
+    height: 12px;
+}
+.sample-sett::-webkit-scrollbar-track {
+    background-color:#E3BBA3;
+}
+.sample-sett::-webkit-scrollbar-thumb {
+    background-color:#B1907D;
+}
+
+
+
+
 
