@@ -13,37 +13,28 @@
 
 /******************* Layout */
 section {
-    width:100vw;
-    height:100vh;
-    padding:60px;
+  
 }
 
 #first-section {
-    background-color: red;
     font-family: var(--Disply);
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 40px;
+    line-height: 50px;
+    
+}
+
 #second-section {
-    background:blue;
     font-family: var(--sans);
 }
 
-#third-section { 
-    background:green;
 
+.flex-container {
+    display:flex;
+    flex-direction: row; 
+   justify-content: space-evenly;
 }
-
-.flex {
-    display: flex;
-    flex-direction: row;
-}
-
-.chunk {
-    background-color: white;
- }
-
- .image {
-    width: 500px;
-    height: 300px;
-    background-color: aqua;
- }
