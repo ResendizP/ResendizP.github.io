@@ -120,8 +120,8 @@ color: #3C5006;
 
 .firstsec {
     display: flex;
-    margin-left: 161px;
-    margin-right: 139px;
+    margin-left: 139px;
+   width:1136px;
 
 
 }
@@ -130,7 +130,7 @@ color: #3C5006;
 
 p {
 color: #584730;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -139,8 +139,15 @@ line-height: 200%;
 
 /************subtitles**********/
 
-.bromeliad title {
+.bromeliad{
    display: flex;
-   justify-content: flex-end;
+ 
 
+}
+.test {
+    font-family: 'Roboto Condensed';
+}
+.text-to-the-right {
+    margin-left: 763px;
+    margin-right: 139px;
 }
