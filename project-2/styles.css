@@ -38,6 +38,7 @@ font-style: normal;
 font-weight: 200;
 line-height: 125%;
 margin-top: 100px;
+text-align: center;
 }
 h3 {
     color: var(--Dark-Green, #3C5006);
@@ -89,13 +90,11 @@ h3 {
 
 /******top nav bar for interior pages******/
 .topnav-iw {
-    width: 1440px;
-    height: 56px;
     background-color: #F6CEB2;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
-    margin: 0px auto;
+    
 }
 .topnav-iw a {
     float: left;
@@ -114,15 +113,7 @@ color: #3C5006;
 }
 /***********Titles********/
 
-.title {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 125%;
-    color: #3C5006;
-}
+
 
 .firstsec {
     display: flex;
@@ -151,11 +142,23 @@ color: #3C5006;
     line-height: 200%;
 }
 .text-to-the-right {
-    margin-left: 205px;
-    margin-right: 139px;
+    margin-left: 187px;
+    margin-right: 150px;
     margin-top: -5px;
 }
 
 .text-to-the-left {
     display: flex;
+}
+
+.last-item {
+    margin-right: 150px ;
+}
+.links {
+    color: #987F5E;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
 }
