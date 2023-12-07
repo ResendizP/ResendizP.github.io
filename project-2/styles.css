@@ -59,6 +59,28 @@ h3 {
     margin-left: 150px;
     margin-right: 119px;
     }
+    h6 { 
+        color: #3C5006;
+    font-family: 'Roboto Condensed';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 81px;
+    margin-left: 750px;}
+
+    h4 {
+        color: var(--Dark-Green, #3C5006);
+    
+    font-family: 'Roboto Condensed';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+    margin-left: 150px;
+    margin-top: -50px;
+
+    }
+    
 
 
 
@@ -73,6 +95,12 @@ h3 {
     display:flex;
     flex-direction: row; 
    justify-content: space-evenly;
+}
+
+.bromeliad-foto {
+    display:flex;
+    flex-direction: column; 
+    margin-top: -190px;
 }
 /******top nav bar for home******/
 
@@ -136,7 +164,6 @@ color: #3C5006;
 
 
 
-
 /************subtitles**********/
 
 .bromeliad{
@@ -151,13 +178,32 @@ color: #3C5006;
     font-style: normal;
     font-weight: 300;
     line-height: 200%;
-}
-.text-to-the-right {
-    margin-left: 187px;
-    margin-right: 150px;
-    margin-top: -5px;
+
 }
 
+.testtwo {
+    color: #584730;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    margin-left: -165px;
+    margin-top:55px;
+
+}
+
+
+.text-to-the-right {
+    margin-left: 750px;
+    margin-right: 150px;
+    margin-top: -670px;
+}
+.finaltext {
+    margin-left: 205px;
+    margin-right: 139px;
+    margin-top: -5px;
+}
 .text-to-the-left {
     display: flex;
 }
@@ -182,7 +228,7 @@ color: #3C5006;
 .navbarhp{
     position: absolute;
     top: 8px;
-   margin-left: 460px;
+   margin-left: 408px;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
@@ -195,13 +241,59 @@ color: #3C5006;
     color: #987F5E;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-style: condensed;
+    font-weight: 600;
     line-height: 20px;
     padding: 13px 20px; 
 }
 
 .navbarhp a:hover{
 color: #3C5006;
+}
+
+.video {
+    margin-left: 150px;
+    margin-top:100px;
+}
+
+.aftervideo { 
+margin-left: 150px;
+margin-top:20px;
+margin-right: 150px;
+color: #584730;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 200%;
+}
+
+.sub-titles-caretips {
+    color:#C18C02;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+   
+}
+.little-paragraphs {
+    color: #584730;
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 200%;
+width: 544px;
+margin-right: 40px;
+
+}
+
+.caretips-layout {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    
 }
